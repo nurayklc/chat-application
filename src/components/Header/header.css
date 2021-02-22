@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    position: relative;
+    height: 60px;
+    display: flex;
+    background: #e2e0e0;
+    opacity: 1;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+}
+.logo{
+    font-size: 25px;
+    color: black;
+    text-transform: capitalize;
+    margin: 15px;
+    text-shadow: 0 0;
+}
+
+.menu{
+    display: flex;
+    margin: 20px;
+}
+
+.menu > li > a{
+    color: black;
+    text-shadow: 0 0;
+    text-decoration: none;
+}
+
+.leftMenu{
+    display: flex; 
+    color: black; 
+    margin: 20px;
+}
+
+.leftMenu > li{
+    margin: 0 10px;
+}
+
+.leftMenu > li > a{
+    color: black;
+}
